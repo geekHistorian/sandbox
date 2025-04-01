@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: block;
+    margin: 20px auto;
+}
+
+#main-page {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    border: 1.5px solid black;
+    margin: 10px auto;
+    padding: 0 15px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    width: auto;
+    height: 250px;
+    margin: 10px auto;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.site-logo {
+    padding-right: 110px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+
+.columns {
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    border: 2px solid black;
+    margin-right: 89%;
+}
+
+.first-column {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    background-color: cyan;
+}
+
+.second-column {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    margin-top: 25px;
+}
+
+.title {
+    margin: 15px 0;
+    font-size: 35px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer {
+    margin-top: 40px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.column-1 {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+
+.column-2 {
+    display: flex;
+    justify-content: center;
+    background-color: cyan;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+}
+
+.form1{
+    display: flex;
+    justify-content: center;
+}
+
+#name{
+    margin-left: 15px;
+}
+
+.form2{
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+#email{
+    margin-left: 14px;
+    
+}
+.form3{
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+#message{
+    margin: 0 17px;
+    
+}
+
+label{
+    padding: 0 15px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
